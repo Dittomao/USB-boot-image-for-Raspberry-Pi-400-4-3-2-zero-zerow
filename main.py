@@ -14,6 +14,7 @@ try:
 except: 
     is_windows = True
     import pyreadline
+    import HTTPConnectionPool
 
 
 def printlogo():
